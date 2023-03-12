@@ -1,0 +1,16 @@
+version: "3.9"
+
+networks:
+  default:
+    name: monitoring-network
+
+
+services:
+  docs:
+    image: nginx
+    container_name: docs
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./site:/app/static
+    ports:
+      - "8080:8080"
