@@ -1,2 +1,3 @@
 # DocServer
-A simple static file server to host your documentation created with mkdocs
+
+A simple static file server with object storage backend to host your documentation created with mkdocs.

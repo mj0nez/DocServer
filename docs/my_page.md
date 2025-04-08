@@ -1,6 +1,6 @@
 # Documentation for `MyClass`
 
-::: my_package.my_module.MyClass
+::: docserver.my_module.MyClass
     handler: python
     options:
       members:
